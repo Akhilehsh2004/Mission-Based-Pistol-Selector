@@ -1,0 +1,101 @@
+Pistol Name,Barrel Length,Caliber,Magazine Capacity,Weight,Reliability,Recoil Level,Concealability,Price,Action Type,Sight Type,Military Use,Best Use Case
+Glock 17,5.8,13,10,0.6,8.8,High,Average,525,Single Action,Laser Sight,No,Training
+Colt M1911,5.2,13,20,0.89,9.3,Low,Average,944,Double Action,Laser Sight,Yes,Surgical Strike
+Colt M1911,5.8,12,12,1.18,7.3,High,Good,1262,Semi-Automatic,Laser Sight,Yes,House-to-House Combat
+Beretta M9,3.7,12,15,1.02,9.4,Low,Excellent,1465,Semi-Automatic,Optical,Yes,VIP Protection
+Beretta M9,3.9,12,17,0.62,7.5,High,Good,1464,Double Action,Optical,Yes,Surgical Strike
+FN Five-SeveN,4.1,9,15,1.15,7.3,Low,Excellent,1808,Double Action,Iron Sights,Yes,Surgical Strike
+Smith & Wesson M&P9,3.8,13,10,0.62,8.5,Low,Excellent,510,Semi-Automatic,Iron Sights,No,Surveillance
+Walther P99,5.6,13,12,0.94,9.2,Medium,Average,1605,Semi-Automatic,Iron Sights,No,Training
+Ruger SR9,4.1,10,17,0.9,9.9,Low,Good,1157,Semi-Automatic,Night Vision,No,Self-Defense
+Colt M1911,5.4,11,17,0.73,7.9,Low,Excellent,705,Double Action,Night Vision,No,Self-Defense
+FN Five-SeveN,5.6,10,17,1.03,8.2,High,Poor,1535,Double Action,Iron Sights,Yes,Self-Defense
+Heckler & Koch USP,5.0,9,20,1.0,7.8,Medium,Good,1563,Double Action,Iron Sights,No,House-to-House Combat
+Sig Sauer P320,5.8,9,12,1.09,8.9,High,Poor,942,Double Action,Night Vision,Yes,Surveillance
+Glock 17,5.1,10,15,0.67,9.3,Low,Poor,974,Single Action,Laser Sight,Yes,Surveillance
+Ruger SR9,4.4,12,10,0.97,7.5,Medium,Good,822,Double Action,Laser Sight,Yes,Self-Defense
+Sig Sauer P320,5.1,9,20,0.81,7.6,Medium,Poor,1855,Double Action,Iron Sights,No,House-to-House Combat
+Colt M1911,4.7,12,12,1.1,7.8,Medium,Average,1081,Single Action,Laser Sight,Yes,Self-Defense
+Beretta M9,5.8,11,10,1.05,8.5,High,Poor,1868,Single Action,Optical,No,Surgical Strike
+Walther P99,4.4,9,15,0.68,10.0,Medium,Excellent,995,Single Action,Optical,Yes,Training
+Glock 17,5.3,13,10,0.85,7.9,Low,Average,1881,Double Action,Optical,Yes,VIP Protection
+Heckler & Koch USP,5.4,11,17,0.83,7.1,High,Poor,1483,Semi-Automatic,Night Vision,No,House-to-House Combat
+Ruger SR9,4.4,12,10,0.67,9.6,Low,Average,1953,Double Action,Night Vision,No,Self-Defense
+Walther P99,5.6,13,10,0.67,8.9,Medium,Average,1525,Single Action,Iron Sights,Yes,Self-Defense
+Smith & Wesson M&P9,3.7,11,17,0.68,8.7,Low,Poor,1716,Single Action,Iron Sights,No,Surveillance
+FN Five-SeveN,4.5,9,20,0.84,9.9,High,Good,1404,Double Action,Laser Sight,No,VIP Protection
+Beretta M9,3.6,9,10,0.81,7.8,Medium,Average,843,Striker-Fired,Night Vision,Yes,House-to-House Combat
+CZ P-10 C,5.9,12,17,0.87,7.7,High,Good,832,Double Action,Iron Sights,No,Surgical Strike
+Colt M1911,4.4,13,10,0.78,7.2,High,Poor,750,Double Action,Optical,No,Surgical Strike
+Heckler & Koch USP,5.7,11,17,0.83,7.2,High,Poor,1528,Striker-Fired,Laser Sight,Yes,VIP Protection
+FN Five-SeveN,5.0,9,10,0.76,9.8,Low,Average,1647,Double Action,Night Vision,No,Surgical Strike
+Colt M1911,5.7,11,12,1.14,8.6,High,Poor,699,Double Action,Iron Sights,Yes,Training
+Colt M1911,4.2,10,15,1.17,7.2,High,Average,1410,Striker-Fired,Laser Sight,Yes,Training
+FN Five-SeveN,5.0,12,15,0.72,8.3,Low,Excellent,774,Double Action,Optical,No,Surveillance
+Colt M1911,4.4,11,12,1.11,9.2,Low,Good,599,Single Action,Iron Sights,No,Surgical Strike
+Walther P99,4.7,12,17,1.09,8.6,Medium,Good,1567,Double Action,Night Vision,Yes,Surveillance
+Glock 17,3.7,9,17,1.14,7.4,High,Good,1059,Striker-Fired,Iron Sights,No,Self-Defense
+Ruger SR9,4.2,13,12,1.09,9.7,Medium,Excellent,846,Single Action,Optical,Yes,House-to-House Combat
+Ruger SR9,5.0,13,12,0.73,8.4,Medium,Good,1948,Semi-Automatic,Optical,No,Surgical Strike
+Walther P99,5.7,12,12,1.12,7.3,High,Average,1142,Semi-Automatic,Laser Sight,Yes,House-to-House Combat
+Walther P99,3.7,10,12,0.94,9.6,Low,Excellent,1368,Double Action,Iron Sights,No,VIP Protection
+Glock 17,5.9,11,17,1.2,8.5,High,Average,1711,Single Action,Night Vision,Yes,Training
+Colt M1911,5.0,13,20,0.84,9.4,High,Good,1930,Double Action,Laser Sight,No,Covert Operations
+Sig Sauer P320,5.4,11,20,0.76,9.0,Medium,Excellent,1980,Double Action,Optical,Yes,Covert Operations
+Smith & Wesson M&P9,3.9,13,10,0.99,9.0,High,Average,528,Single Action,Laser Sight,No,House-to-House Combat
+Beretta M9,5.3,13,12,1.15,9.4,Medium,Excellent,1882,Semi-Automatic,Iron Sights,No,Training
+Sig Sauer P320,4.2,11,10,0.68,8.5,Medium,Good,999,Semi-Automatic,Iron Sights,Yes,House-to-House Combat
+Ruger SR9,4.5,13,12,0.82,8.5,Low,Excellent,1506,Semi-Automatic,Laser Sight,No,Surveillance
+Sig Sauer P320,5.8,11,17,0.73,9.5,Low,Excellent,1463,Single Action,Night Vision,Yes,House-to-House Combat
+Sig Sauer P320,5.9,12,20,0.62,10.0,Medium,Excellent,1753,Single Action,Night Vision,No,Covert Operations
+Ruger SR9,4.9,9,10,1.08,7.2,Medium,Excellent,1689,Striker-Fired,Night Vision,Yes,Training
+CZ P-10 C,4.6,10,15,1.17,7.0,Medium,Average,894,Striker-Fired,Night Vision,No,House-to-House Combat
+CZ P-10 C,4.5,11,12,0.84,8.6,Medium,Poor,528,Striker-Fired,Optical,Yes,VIP Protection
+Sig Sauer P320,5.2,9,20,0.75,8.1,Medium,Average,605,Striker-Fired,Optical,Yes,House-to-House Combat
+Sig Sauer P320,5.3,10,17,0.91,8.6,Low,Good,1073,Semi-Automatic,Laser Sight,No,VIP Protection
+Beretta M9,4.6,13,17,1.03,8.4,Low,Good,1377,Double Action,Iron Sights,Yes,Surgical Strike
+Walther P99,4.2,9,17,0.87,8.5,High,Excellent,1170,Double Action,Laser Sight,No,Covert Operations
+FN Five-SeveN,5.9,10,12,0.9,9.9,High,Good,1449,Double Action,Optical,No,Surgical Strike
+CZ P-10 C,5.9,11,10,1.1,9.9,High,Average,1497,Semi-Automatic,Optical,No,Surveillance
+Beretta M9,4.4,13,17,1.04,7.2,Medium,Poor,1019,Semi-Automatic,Iron Sights,Yes,Covert Operations
+Smith & Wesson M&P9,4.0,10,15,1.05,9.3,High,Good,1740,Semi-Automatic,Night Vision,Yes,Training
+Glock 17,5.6,9,12,0.62,8.4,Low,Poor,947,Striker-Fired,Night Vision,No,Surgical Strike
+CZ P-10 C,5.0,13,20,0.84,7.9,Low,Poor,807,Double Action,Laser Sight,No,Surveillance
+Smith & Wesson M&P9,3.7,11,12,0.69,8.2,Low,Excellent,677,Double Action,Laser Sight,No,Self-Defense
+Smith & Wesson M&P9,5.5,12,17,0.86,7.9,High,Good,565,Double Action,Night Vision,Yes,VIP Protection
+Sig Sauer P320,4.1,13,10,0.97,7.2,Medium,Average,1088,Semi-Automatic,Optical,No,Covert Operations
+FN Five-SeveN,4.5,9,17,0.84,8.6,Medium,Good,1083,Semi-Automatic,Optical,Yes,Self-Defense
+Beretta M9,5.2,11,17,0.75,7.8,High,Good,687,Single Action,Iron Sights,No,Covert Operations
+Glock 17,4.7,12,12,0.86,7.3,Medium,Poor,1597,Double Action,Laser Sight,No,Surgical Strike
+FN Five-SeveN,4.9,12,20,0.94,9.5,Low,Excellent,615,Single Action,Optical,Yes,VIP Protection
+Colt M1911,5.8,9,17,1.09,7.2,High,Poor,1984,Striker-Fired,Optical,Yes,Self-Defense
+Colt M1911,5.5,13,17,0.86,7.9,Low,Good,890,Single Action,Optical,Yes,Self-Defense
+Ruger SR9,5.1,9,15,1.2,8.0,Medium,Poor,920,Semi-Automatic,Night Vision,No,Training
+Colt M1911,5.0,9,10,0.94,8.7,Low,Excellent,1785,Double Action,Optical,No,VIP Protection
+Glock 17,4.1,10,20,0.84,7.3,Medium,Excellent,1728,Single Action,Night Vision,Yes,House-to-House Combat
+Glock 17,5.6,9,12,0.94,8.9,Low,Poor,1778,Single Action,Iron Sights,No,House-to-House Combat
+CZ P-10 C,4.0,10,10,0.8,7.3,Low,Excellent,1636,Single Action,Night Vision,Yes,VIP Protection
+Glock 17,3.6,10,12,0.93,8.3,Low,Poor,1057,Double Action,Night Vision,No,Surveillance
+Beretta M9,4.5,13,17,0.83,8.7,Medium,Excellent,1887,Semi-Automatic,Night Vision,Yes,Surveillance
+Sig Sauer P320,3.8,10,10,0.66,9.7,Medium,Excellent,1161,Single Action,Iron Sights,No,Covert Operations
+CZ P-10 C,4.1,11,17,0.92,7.5,Medium,Average,961,Single Action,Night Vision,No,Self-Defense
+Sig Sauer P320,5.7,13,15,1.08,7.3,Low,Poor,1917,Double Action,Night Vision,Yes,Covert Operations
+Colt M1911,5.6,9,17,0.75,7.0,High,Average,1169,Semi-Automatic,Iron Sights,Yes,VIP Protection
+Colt M1911,4.4,13,20,0.68,9.9,Medium,Excellent,1794,Single Action,Iron Sights,Yes,Surgical Strike
+FN Five-SeveN,4.8,13,10,0.83,9.9,Medium,Good,1346,Striker-Fired,Night Vision,Yes,Covert Operations
+CZ P-10 C,5.4,10,15,0.64,10.0,High,Poor,863,Semi-Automatic,Night Vision,Yes,VIP Protection
+Heckler & Koch USP,5.4,13,10,0.65,8.8,Low,Average,1311,Single Action,Iron Sights,No,Training
+Smith & Wesson M&P9,3.9,10,20,0.95,9.2,Low,Good,1082,Single Action,Iron Sights,Yes,House-to-House Combat
+Walther P99,4.6,12,20,1.04,7.9,Medium,Average,1456,Striker-Fired,Iron Sights,Yes,Surveillance
+Colt M1911,4.4,10,12,0.94,9.9,Low,Good,1703,Single Action,Iron Sights,Yes,Covert Operations
+Sig Sauer P320,3.9,12,17,1.2,7.2,High,Excellent,947,Striker-Fired,Optical,Yes,House-to-House Combat
+Glock 17,5.5,11,10,1.09,8.6,High,Poor,709,Semi-Automatic,Night Vision,No,Covert Operations
+Colt M1911,4.7,11,20,0.98,7.3,Medium,Average,1132,Double Action,Night Vision,Yes,Training
+FN Five-SeveN,5.4,12,10,0.94,9.6,High,Poor,1085,Double Action,Laser Sight,Yes,Self-Defense
+CZ P-10 C,4.9,13,15,0.83,7.4,Medium,Excellent,1967,Single Action,Optical,Yes,Training
+Ruger SR9,4.0,11,20,0.86,9.5,Low,Excellent,1948,Double Action,Iron Sights,Yes,Surgical Strike
+Sig Sauer P320,5.0,13,10,0.82,7.4,High,Poor,1482,Striker-Fired,Night Vision,No,Surveillance
+Colt M1911,4.4,11,20,0.82,9.8,High,Poor,601,Semi-Automatic,Optical,No,House-to-House Combat
+Colt M1911,3.7,11,15,0.82,8.9,High,Good,668,Single Action,Optical,No,VIP Protection
+Smith & Wesson M&P9,5.2,10,17,0.63,8.1,Low,Poor,1643,Double Action,Optical,Yes,Self-Defense
+Smith & Wesson M&P9,3.9,12,17,0.6,8.6,Low,Average,1707,Double Action,Night Vision,Yes,Surgical Strike

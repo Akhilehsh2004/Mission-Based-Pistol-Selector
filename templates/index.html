@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💀 Tactical Pistol Recommender | Danger Mode</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+        /* General Styles */
+        body {
+            font-family: 'Orbitron', sans-serif;
+            background: url('https://i.imgur.com/YZlBqGF.jpeg') no-repeat center center/cover;
+            color: #ff0000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        /* Background Animation */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.85);
+            z-index: -1;
+            animation: flicker 3s infinite alternate;
+        }
+
+        @keyframes flicker {
+            0% { background: rgba(0, 0, 0, 0.85); }
+            100% { background: rgba(0, 0, 0, 0.9); }
+        }
+
+        /* Container */
+        .container {
+            background: rgba(20, 20, 20, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 4px solid rgba(255, 0, 0, 0.9);
+            box-shadow: 0px 0px 30px rgba(255, 0, 0, 1);
+            max-width: 500px;
+            width: 90%;
+            position: relative;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .container:hover {
+            transform: scale(1.07);
+        }
+
+        /* Title Glitch Effect */
+        h1 {
+            font-size: 28px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #ffffff;
+            margin-bottom: 20px;
+            text-shadow: 0 0 15px #ff0000, 0 0 30px #800000;
+            animation: glitch 1s infinite alternate;
+        }
+
+        @keyframes glitch {
+            0% { text-shadow: 0 0 10px #ff0000, 0 0 20px #800000; }
+            100% { text-shadow: 0 0 15px #ff0000, 0 0 30px #ffffff; }
+        }
+
+        /* Dropdown */
+        select {
+            width: 100%;
+            padding: 12px;
+            border-radius: 8px;
+            background: rgba(20, 20, 20, 0.9);
+            color: #ff0000;
+            font-size: 16px;
+            font-weight: bold;
+            border: 3px solid #ff0000;
+            outline: none;
+            transition: 0.3s;
+            text-transform: uppercase;
+        }
+
+        select:hover {
+            border-color: #ffffff;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+        }
+
+        /* Button */
+        .recommend-btn {
+            background: linear-gradient(45deg, #ff0000, #800000);
+            color: #ffffff;
+            padding: 14px 25px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+            font-weight: bold;
+            text-transform: uppercase;
+            box-shadow: 0px 5px 25px rgba(255, 0, 0, 0.9);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .recommend-btn:hover {
+            background: linear-gradient(45deg, #ffffff, #ff0000);
+            box-shadow: 0px 5px 30px rgba(255, 255, 255, 1);
+            transform: scale(1.1);
+            color: #000;
+        }
+
+        /* Button Fire Effect */
+        .recommend-btn:before {
+            content: "";
+            position: absolute;
+            width: 300%;
+            height: 300%;
+            top: -100%;
+            left: -100%;
+            background: radial-gradient(circle, rgba(255, 0, 0, 0.9), transparent);
+            opacity: 0.5;
+            transition: opacity 0.3s;
+        }
+
+        .recommend-btn:hover:before {
+            opacity: 1;
+        }
+
+        /* Result Box */
+        .result-box {
+            background: rgba(255, 0, 0, 0.3);
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: bold;
+            box-shadow: 0px 0px 20px #ff0000;
+            transition: 0.3s;
+            margin-top: 20px;
+            text-transform: uppercase;
+            animation: pulse 1s infinite alternate;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0px 0px 15px #ff0000; }
+            100% { box-shadow: 0px 0px 30px #ffffff; }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚠️ Tactical Pistol Recommender</h1>
+
+        <div class="input-group">
+            <label for="mission_type">Select Mission Type:</label>
+            <select id="mission_type" onchange="playSelectionSound()">
+                <option value="" disabled selected>-- Select Mission Type --</option>
+                <option value="Training">Training</option>
+                <option value="Surgical Strike">Surgical Strike</option>
+                <option value="Self-Defense">Self-Defense</option>
+                <option value="Surveillance">Surveillance</option>
+                <option value="VIP Protection">VIP Protection</option>
+                <option value="Covert Operations">Covert Operations</option>
+                <option value="House-to-House Combat">House-to-House Combat</option>
+            </select>
+        </div>
+
+        <button class="recommend-btn" onclick="getRecommendation(); playButtonClickSound();">💥 GET RECOMMENDATION</button>
+
+        <h2>💀 Recommended Weapon:</h2>
+        <p id="result" class="result-box">Awaiting Selection...</p>
+    </div>
+
+    <script>
+        function playSelectionSound() {
+            new Audio('https://www.myinstants.com/media/sounds/click.mp3').play();
+        }
+
+        function playButtonClickSound() {
+            new Audio('https://www.myinstants.com/media/sounds/gun-reload.mp3').play();
+        }
+
+        function playGunshot() {
+            new Audio('https://www.myinstants.com/media/sounds/gunshot.mp3').play();
+        }
+
+        function speakRecommendation(text) {
+            let msg = new SpeechSynthesisUtterance();
+            msg.text = text;
+            msg.lang = 'en-US';
+            msg.rate = 1.1;
+            window.speechSynthesis.speak(msg);
+        }
+
+        function getRecommendation() {
+            const missionType = document.getElementById("mission_type").value;
+            const recommendations = {
+                "Training": "Glock 17 - Reliable & Durable",
+                "Surgical Strike": "Sig Sauer P226 - High Accuracy",
+                "Self-Defense": "Ruger SR9 - Compact & Powerful",
+                "Surveillance": "M&P9 - Silent & Tactical",
+                "VIP Protection": "Beretta M9 - Trusted",
+                "Covert Operations": "HK USP Tactical - Suppressed",
+                "House-to-House Combat": "FN Five-seveN - Armor Piercing"
+            };
+
+            document.getElementById("result").innerText = recommendations[missionType] || "No recommendation available";
+            playGunshot();
+            speakRecommendation(recommendations[missionType]);
+        }
+    </script>
+</body>
+</html>
